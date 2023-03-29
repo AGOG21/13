@@ -1,0 +1,84 @@
+body { 
+    margin: 0;
+    font-family: 'Gruppo', cursive;
+    color: aliceblue;
+    background-color: grey;
+    background-image: url(https://i.gifer.com/Fi1G.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(1, 8, 51, 0.78);
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+    min-height: 70px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10 px 0px;
+    }
+}
+
+.d{
+    text-align: center;
+
+}
+.d:hover{
+    border-bottom: 3px solid aliceblue;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    filter: drop-shadow(0px 2px 15px #ffffff);
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+p{
+    text-align: center;
+    color: aliceblue;
+    filter: drop-shadow(0px 2px 15px #ffffff);
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+,a{
+    text-align: center;
+    filter: drop-shadow(0px 2px 15px #ffffff);
+}
+
+hr{
+    border-width: 2px;
+    border-color: aquamarine;
+}
